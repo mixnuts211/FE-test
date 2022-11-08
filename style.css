@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400, 700;
+    font-style: normal;
+}
+
+/* reset */
+:root{
+    font-size: 62.5%;
+    line-height: 1;
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+}
+
+body{
+    margin: 0;
+}
+
+h1, p{
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*  */
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: no-repeat radial-gradient(96.74% 276.79% at 3.59% 5.28%, #F0F4FF 0%, #A5B6EE 100%);
+    text-transform: uppercase;
+}
+
+/* content */
+header{
+    width:224px;
+    margin: 0 auto;
+    margin-top: 72px;
+}
+
+
+.content{
+    width: 400px;
+    margin: 60px auto;
+    padding: 48px 44px 40px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);;
+}
+.content .content-title{
+    position: relative;
+    text-align: center;
+    padding-bottom: 23px;
+    box-sizing: border-box;
+    margin-bottom: 33px;
+    font-size: 24px;
+    border-bottom: 1px solid #3D538A;
+    color:white;
+}
+.content .content-title::after{
+    content:'';
+    position:absolute;
+    bottom: -2px;
+    left: 0;
+    background-color: #5B75B4;
+    width:100%;
+    height: 1px;
+}
+
+.content-timer-wrap{
+    display: flex;
+    justify-content: space-between;
+    width:284px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.time-box{
+    width:80px;
+}
+.time-box p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+    color:#A5B6EE;
+}
+.time-box div{
+    padding: 16px 14px;
+    box-sizing: border-box;
+    color:#fff;
+    font-size: 4rem;
+    background : linear-gradient(314.28deg, #304577 0%, #4C65A0 83%);
+    border: 1px solid #354971;
+    border-radius: 4px;
+}
+
+.btn-wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 236px;
+    margin: 0 auto;
+}
+.btn-wrap button{
+    all: unset;
+    width:112px;
+    padding: 16px 27px 16px;
+    box-sizing: border-box;
+    color:#617199;
+    font-size: 1.4rem;
+    text-align: center;
+    background-color: #324577;
+    border-radius: 50px;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:#8596BF;
+}
