@@ -3,7 +3,6 @@
 /* reset */
 :root{
     font-size: 62.5%;
-    line-height: 1;
     font-family: 'Pretendard';
     font-weight: 700;
 }
@@ -33,7 +32,6 @@ header{
     margin: 0 auto;
     margin-top: 72px;
 }
-
 
 .content{
     width: 400px;
