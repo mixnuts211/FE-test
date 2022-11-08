@@ -17,7 +17,7 @@ body{
     margin: 0;
 }
 
-h1, p{
+h1, h2, p{
     margin: 0;
     font-size: inherit;
     font-weight: inherit;
@@ -46,7 +46,8 @@ header{
     padding: 48px 44px 40px;
     box-sizing: border-box;
     border-radius: 16px;
-    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);;
+    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
 }
 .content .content-title{
     position: relative;
